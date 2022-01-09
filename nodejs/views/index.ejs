@@ -1,0 +1,54 @@
+<%- include ('./partials/header') %>
+<!-- Page Header-->
+
+<header class="intro-header" style="background-image: url('https://images.unsplash.com/photo-1499615767948-e6a89ef6060f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ff7e0816b73331eb0f205ac167b2094f&auto=format&fit=crop&w=1350&q=80')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>Clean Blog</h1>
+                    <hr class="small">
+                    <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+    <% data.forEach( (d)=>{  %>
+    <div class="row">
+        <div class="col-lg-3 col-md-2 mx-auto">
+            <img class="img-thumbnail" src="<%=d.image%>" alt="blog-images">
+        </div>
+        <div class="col-lg-9 col-md-10 mx-auto">
+            <div class="post-preview">
+                <a href="post.html">
+                    <h2 class="post-title">
+                        <%=d.productName%>
+                    </h2>
+                    <h3 class="post-subtitle">
+                        <%= d.productSubtitle%>
+                    </h3>
+                </a>
+
+            </div>
+            <hr>
+
+
+            <!-- Pager -->
+
+        </div>
+    </div>
+    <%});%>
+    <ul class="pager">
+        <li class="next">
+            <a href="#">Older Posts &rarr;</a>
+        </li>
+    </ul>
+</div>
+
+<hr>
+
+<%- include ('./partials/footer') %>
