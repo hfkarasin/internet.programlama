@@ -1,0 +1,9 @@
+/Users/hayrullahfarukkarasin/Proje/Proje.entity/bin/Release/netstandard2.0/Proje.entity.deps.json
+/Users/hayrullahfarukkarasin/Proje/Proje.entity/bin/Release/netstandard2.0/Proje.entity.dll
+/Users/hayrullahfarukkarasin/Proje/Proje.entity/bin/Release/netstandard2.0/Proje.entity.pdb
+/Users/hayrullahfarukkarasin/Proje/Proje.entity/obj/Release/netstandard2.0/Proje.entity.csprojAssemblyReference.cache
+/Users/hayrullahfarukkarasin/Proje/Proje.entity/obj/Release/netstandard2.0/Proje.entity.AssemblyInfoInputs.cache
+/Users/hayrullahfarukkarasin/Proje/Proje.entity/obj/Release/netstandard2.0/Proje.entity.AssemblyInfo.cs
+/Users/hayrullahfarukkarasin/Proje/Proje.entity/obj/Release/netstandard2.0/Proje.entity.csproj.CoreCompileInputs.cache
+/Users/hayrullahfarukkarasin/Proje/Proje.entity/obj/Release/netstandard2.0/Proje.entity.dll
+/Users/hayrullahfarukkarasin/Proje/Proje.entity/obj/Release/netstandard2.0/Proje.entity.pdb
